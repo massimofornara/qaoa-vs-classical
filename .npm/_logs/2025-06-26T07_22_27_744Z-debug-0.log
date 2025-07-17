@@ -1,0 +1,22 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.3.0
+2 info using node@v24.2.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/flashloan-arbitrage-100M/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm exec thirdweb deploy -k sk0W5xr0jK6i-QbRlGPr5YV4JvfEaUtmZGzT6CvamPHW81haSqiUfXCJ5jVmjwzmiS34MGDhDDbwqTuGWW87oNiw
+8 verbose argv "exec" "--" "thirdweb" "deploy" "-k" "sk0W5xr0jK6i-QbRlGPr5YV4JvfEaUtmZGzT6CvamPHW81haSqiUfXCJ5jVmjwzmiS34MGDhDDbwqTuGWW87oNiw"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-06-26T07_22_27_744Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-06-26T07_22_27_744Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1083965440 maxSize:270991360 maxEntrySize:135495680
+13 http fetch GET 200 https://registry.npmjs.org/thirdweb 1179ms (cache revalidated)
+14 silly packumentCache heap:1083965440 maxSize:270991360 maxEntrySize:135495680
+15 silly packumentCache heap:1083965440 maxSize:270991360 maxEntrySize:135495680
+16 verbose cwd /data/data/com.termux/files/home/flashloan-arbitrage-100M
+17 verbose os Linux 4.14.186-g46ead2c21af1
+18 verbose node v24.2.0
+19 verbose npm  v11.3.0
+20 verbose exit 0
+21 info ok

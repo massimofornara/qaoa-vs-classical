@@ -1,0 +1,16 @@
+{
+  "name": "flashloan-arbitrage-100M",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "npx thirdweb deploy",
+    "execute": "node scripts/executeFlashLoan.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@thirdweb-dev/cli": "^0.14.2",
+    "typescript": "^5.0.4"
+  }
+}
