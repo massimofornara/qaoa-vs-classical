@@ -1,0 +1,26 @@
+<!doctype html><html lang="it"><meta charset="utf-8"><title>Report 0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8</title>
+<style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;padding:24px;line-height:1.45;color:#111}
+h1{font-size:24px} h2{margin-top:18px;border-bottom:1px solid #eee;padding-bottom:6px}
+table{border-collapse:collapse;width:100%} th,td{border:1px solid #e5e7eb;padding:6px 8px} th{background:#f3f4f6}</style>
+<h1>Report di Sicurezza – Arbitrum-One – 0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8</h1>
+<p>Data: 2025-09-13 20:52 UTC • RPC: arb1.arbitrum.io</p>
+<h2>Executive Summary</h2>
+<p>Classificazione: <b>CRITICAL</b></p>
+<h2>Dettagli (grezzi)</h2>
+<table><tr><th>Chiave</th><th>Valore</th></tr>
+<tr><td>bytecode_size</td><td>2092</td></tr>
+<tr><td>is_minimal_proxy_eip1167</td><td>False</td></tr>
+<tr><td>eip1967_proxy</td><td>True</td></tr>
+<tr><td>eip1967.implementation_slot</td><td>0000000000000000000000001efb3f88bc88f03fd1804a5c53b7141bbef5ded8</td></tr>
+<tr><td>eip1967.admin_slot</td><td>000000000000000000000000d570ace65c43af47101fc6250fd6fc63d1c22a86</td></tr>
+<tr><td>owner()</td><td>0000000000000000000000000000000000000000000000000000000000000001</td></tr>
+<tr><td>implementation()</td><td>None</td></tr>
+<tr><td>admin()</td><td>None</td></tr>
+<tr><td>paused()</td><td>0000000000000000000000000000000000000000000000000000000000000000</td></tr>
+<tr><td>has_delegatecall</td><td>True</td></tr>
+<tr><td>has_selfdestruct</td><td>True</td></tr>
+<tr><td>has_sstore</td><td>True</td></tr>
+<tr><td>has_callcode</td><td>True</td></tr>
+<tr><td>upgrade_surface</td><td>True</td></tr>
+</table>
+<h2>Raccomandazioni</h2><ul><li>Verificare admin multisig; limitare upgrade path (UUPS/Transparent).</li><li>Limitare DELEGATECALL a implementazioni fidate; allowlist e pause-guard.</li><li>Rimuovere/disabilitare SELFDESTRUCT o proteggerlo con timelock.</li></ul><p style='color:#666;font-size:12px'>Analisi euristica via RPC – non sostituisce un audit completo.</p></html>

@@ -1,0 +1,1 @@
+ethereum:0xYourWalletAddressHere?value=0.05

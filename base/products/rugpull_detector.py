@@ -1,0 +1,1 @@
+# Scan smart contracts for rugpull signs.

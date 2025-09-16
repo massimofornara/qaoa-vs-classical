@@ -1,0 +1,1 @@
+# Wipe Discord server (admin access required).

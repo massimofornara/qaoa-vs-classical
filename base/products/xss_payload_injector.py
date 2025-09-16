@@ -1,0 +1,1 @@
+# Auto-inject XSS payloads into forms.

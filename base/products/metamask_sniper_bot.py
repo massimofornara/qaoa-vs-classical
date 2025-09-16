@@ -1,0 +1,1 @@
+# Sniper bot integrated with MetaMask.

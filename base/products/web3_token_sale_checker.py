@@ -1,0 +1,1 @@
+# Detect live Web3 token sales.
