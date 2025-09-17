@@ -1,0 +1,14 @@
+# Core scientific stack
+numpy>=1.26.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+networkx>=3.1
+
+# Quantum computing
+qiskit>=1.0.0
+
+# Notebook environment
+jupyter>=1.0.0
+notebook>=7.0.0
+ipython>=8.0.0
+ipykernel>=6.25.0
